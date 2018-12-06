@@ -8,7 +8,11 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-P5KMQ6X');</script>
         <!-- End Google Tag Manager -->
-
+        <script>
+            document.getElementById("submit").addEventListener("click", function(event){
+                event.preventDefault()
+            });
+        </script>
         <title>teste </title>
   </head>
     <body>
@@ -20,7 +24,7 @@
         <h1 name="name">teste</h1>
         <form>
             <input type="text" name="name" id="nome" value=""></input>            
-            <input type="submit"> teste </input>
+            <input type="submit" id="submit"> teste </input>
         </form>
 
     
